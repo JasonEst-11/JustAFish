@@ -1,0 +1,9 @@
+{
+    "bob":{
+        "top": 0,
+        "left": 0,
+        "size": 50,
+        "speed": 0.5,
+        "flip": false
+    }    
+}

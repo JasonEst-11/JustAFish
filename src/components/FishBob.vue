@@ -21,12 +21,12 @@
 export default {
   data() {
     return {
-      bob: this.$store.state.bob,
+      bob: this.$store.state.bob.bob,
     };
   },
   methods: {
     move() {
-      this.$store.commit('move')
+      this.$store.commit('MOVE')
     },
   },
   mounted() {

@@ -20,15 +20,15 @@
 export default {
   methods:{
     feed(){
-      this.$store.commit('feed');
+      this.$store.dispatch('feed');
     },
     diet(){
-      this.$store.commit('diet');
+      this.$store.dispatch('diet');
     }
   },
   computed:{
     getSize(){
-      return this.$store.state.bob.size;
+      return this.$store.state.bob.bob.size;
     }
   }
 };
